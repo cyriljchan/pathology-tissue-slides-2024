@@ -26,6 +26,8 @@ function generateImage() {
     // Create img obj
     let tissue = document.createElement('img');
     tissue.src = 'static/images/' + filename + '.png';
+    tissue.style.width = '300px';
+    tissue.style.height = '300px';
 
     // Insert img
     let imageBody = document.getElementById('imageBody');
