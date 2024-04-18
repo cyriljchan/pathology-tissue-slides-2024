@@ -25,8 +25,8 @@ function generateImage() {
     let filename = filenames[Math.floor(Math.random() * filenames.length)];
     const index = filenames.indexOf(filename);
     filenames.splice(index, 1);
-    console.log(filename + ' has been removed');
-    console.log('new list\n' + filenames);
+    // console.log(filename + ' has been removed');
+    // console.log('new list\n' + filenames);
 
     // Create img obj
     let tissue = document.createElement('img');
