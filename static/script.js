@@ -5,12 +5,7 @@ var orig = ['Bronchiole c.s','Cheek cell (Squamous)','Cow nerve cells smear','He
 'Mammal tooth adult c.s','Mammal trachea','Membrane bone developin','Omentum flat mount','Pacinian corpuscles',
 'Rabbit tongue sect. taste buds','Small intestine','Smooth muscle c.s and l.s']
 
-var filenames = ['Bronchiole c.s','Cheek cell (Squamous)','Cow nerve cells smear','Heart','Heart1',
-'Human duodenum sect','Human fibrous tissue tendon sect','Human Liver sect','Human mammary gland active',
-'Human pancreas c.s','Human thyroid gland sect','Kidney','Kidney1','Liver Chronic congestion',
-'Lung chronic haemorrhage','Mammal large intestine c.s','Mammal Lung sect','Mammal meissner’s corpuscles',
-'Mammal tooth adult c.s','Mammal trachea','Membrane bone developin','Omentum flat mount','Pacinian corpuscles',
-'Rabbit tongue sect. taste buds','Small intestine','Smooth muscle c.s and l.s']
+var filenames = []
 
 function generateImage() {
     // Hide all hidden objects
